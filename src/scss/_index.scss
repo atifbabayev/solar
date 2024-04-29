@@ -1,0 +1,66 @@
+
+    body{
+        background-color: black;
+    }
+    .container{
+        position: relative;
+        height: 640px;
+        max-width: 1440px;
+        width:95%;
+        margin: 0 auto;
+        
+    .orbit{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        height: auto; 
+        width: auto;
+        border-radius: 50%;
+        border: dashed;
+        border-color: white;
+        .orbit-earth{
+            margin: 0 auto;
+            height:300px;
+            width: 300px;
+            border-radius: 50%;
+            animation: rotate 2s linear infinite;
+            @keyframes rotate 
+            {
+                from {
+                    transform: rotate(0deg); 
+                }
+                to {
+                    transform: rotate(360deg); 
+                }
+            }
+        img{
+            margin-left:70px;
+            height:30px;
+            width:30px;  
+
+        }
+    }
+    .orbit-saturn{
+        height:400px;
+        width: 400px;
+        margin: 0 auto;
+        border-radius: 50%;
+        animation: rotate 2s linear infinite;
+        @keyframes rotate 
+        {
+            from {
+                transform: rotate(0deg); 
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    img{
+        margin-left:70px;
+        height:30px;
+        width:30px;  
+
+    }
+    }
+    }
+    }
